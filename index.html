@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>NOKIA</title>
+
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <section id="navigation-bar">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <!-- BRAND NAME -->
+        <a class="navbar-brand" href="/WEB_DEV/PROJECT/index.html">NOKIA</a>
+        <!-- TOGGLE BUTTON -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <!-- TOGGLE CONTEN -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="navbar-item"><a class="navbar-link user-name"></a></li>
+            <li class="navbar-item"><a class="navbar-link" href="feature.html">features</a></li>
+            <li class="navbar-item"><a class="navbar-link" href="#contact-us">contact us</a></li>
+            <button class="btn my-2 my-sm-0 nm" type="button" onclick="nightMode()" name="button"><i class="fas fa-moon fa-lg"></i></button>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section id="mobile">
+    <div class="container">
+      <div class="row">
+        <div class="photos col-lg">
+          <img class="mobile-img" src="img/n_b.png" alt="mobile">
+        </div>
+        <div class="info col-lg">
+          <strong>Nokia 110
+            <p>Talk, Play, take photos - What more do you need?</p>
+          </strong>
+          <p><del>₹ 2049.00</del></p>
+          <p>₹ 1049.00</p>
+          <hr class="mid-hr">
+          <p><strong>color</strong></p>
+          <button class="mobile_color black" type="button" name="b"></button>
+          <button class="mobile_color pink" type="button" name="p"></button>
+          <button class="mobile_color blue" type="button" name="s"></button>
+          <hr>
+          <p><strong>Model</strong></p>
+          <p>Dual Sim</p>
+          <hr>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="feat-tag">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 feat-col feat-1">
+          <i class="fas fa-music feat-fa"></i>
+          <p class="feat-title">Music</p>
+          <p class="feat-info">Listen to your own music in local radio stations.</p>
+        </div>
+        <div class="col-lg-6 col-sm-12 feat-col feat-2">
+          <i class="fas fa-gamepad feat-fa"></i>
+          <p class="feat-title">Games</p>
+          <p class="feat-info">Pre-loaded with a full Snake game, plus try-and-buy games.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-6 col-sm-12 feat-col feat-3">
+          <i class="fas fa-car-crash feat-fa"></i>
+          <p class="feat-title">Durability</p>
+          <p class="feat-info">Made of tough polycarbonate, shaped to fit comfortably in your hand.</p>
+        </div>
+        <div class="col-lg-6 col-sm-12 feat-col feat-4">
+          <i class="fas fa-battery-full feat-fa"></i>
+          <p class="feat-title">Battery</p>
+          <p class="feat-info">Up to 14 hours of talk time from a single single charge.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="spec">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-6 spec-title">
+          <strong>Nokia 110</strong>
+        </div>
+        <div class="col-lg-6 spec-info">
+          Stay entertained all day with the MP3 player, FM radio2, Snake and other exciting games. Keep the fun and conversation flowing with the long-lasting battery. Plus, capture the world around you with the rear camera. A phone to truly match
+          your lifestyle.<br>
+          <button class="btn spec-btn" type="button" name="button" onclick="go_to_feat();"><strong>FULL SPECIFICATION</strong></button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="video">
+    <div class="container-fluid video-container">
+      <video autoplay muted loop>
+        <source src="N.mp4" type="video/mp4" />
+      </video>
+    </div>
+  </section>
+
+  <section id="mobile_desc_music">
+    <div class="container musc">
+      <div class="row">
+        <div class="col-lg-4 musc-ti">
+          <h1><strong>Soundtrack every moment</strong></h1>
+        </div>
+        <div class="col-lg-8 musc-in">
+          <p>Keep thousands of songs in your pocket with the built-in MP3 player and a MicroSD card slot for up to 32GB of expandable storage. Plus, the long-lasting battery means you can listen from sun up to sun down.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container-fluid">
+      <img src="img/m_p_1.png" class="mobile_img_music" alt="">
+    </div>
+
+    <div class="fm">
+      <h1><strong>In tune with you</strong></h1>
+      <p>Plug in your headset, switch over to FM radio2 and stay up to date with the latest news and tunes from the stations you love.</p>
+    </div>
+  </section>
+
+  <section id="mobile_desc_game">
+    <div class="container-fluid game">
+      <div class="row">
+        <div class="col-lg-6 game_desc">
+          Games
+          <h1 class="game_title">Beat your high score</h1>
+          <p class="game_info">
+            Steal a fun moment for yourself with Snake. And if you can tear yourself away from the gaming classic, there are four equally addictive try-and-buy games to choose from, including Doodle Jump and Football Cup.
+          </p>
+        </div>
+        <div class="col-lg-6 game_img_div">
+          <img src="img/m_p_2.png" class="mobile_img_game" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="s">
+    <div class="container img_n">
+      <img src="img/n_1.png" class="img_n_1 bef_rea1" alt="">
+      <div class="s_1">
+        Battery
+        <h1>Talk all you want</h1>
+        Keep the chat going for longer. Talk for up to 14 hours on a single charge – and when you’re done chatting, simply charge up with a standard Micro USB charger.
+      </div>
+    </div>
+    <div class="container img_n">
+      <img src="img/n_2.png" class="img_n_2 bef_rea2" alt="">
+      <div class="s_2">
+        <h1>Capture the world around you</h1>
+        See something you love? Record it. Turn moments into lasting memories with a photo or video captured from the rear camera.
+      </div>
+    </div>
+  </section>
+
+  <section id="two_phone">
+    <div class="t_p">
+      <img src="img/j.png" class="j" alt="">
+      <div class="row two_phone_desc">
+        <div class="col-lg-6 two_phone_title">
+          <p>Design</p>
+          <h1>
+            Solid phone.<br>
+            Solid style.
+          </h1>
+        </div>
+        <div class="col-lg-6 two_phone_info">
+          <p>Designed to withstand everyday wear and tear, Nokia 110 is made of tough polycarbonate contoured to fit perfectly in the palm of your hand. With three colors to choose from – you can make sure it suits your style too.</p>
+        </div>
+      </div>
+      <img src="img/k.png" class="k" alt="">
+    </div>
+  </section>
+
+  <section id="if-award">
+    <div class="if-a">
+      <div class="row award">
+        <div class="col-lg-6 if-a-img">
+          <img src="img/award.jpg" class="if-img" alt="if-award">
+        </div>
+        <div class="col-lg-6 if-a-info">
+          Nokia 110
+          <h1>Winner: iF DESIGN AWARD 2020</h1>
+          Awarded by Hannover-based iF International Forum Design GmbH, Nokia 110 was recently selected as a winner of the iF DESIGN AWARD, the world-renowned design prize.
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="email">
+    <div class="row email-div">
+      <div class="col-lg-6 email-info">
+        <h1><strong>Don't miss out. Sign up and be the first to get Nokia phone news and offers.</strong></h1>
+      </div>
+      <div class="col-lg-6 email-in">
+        <input id="type-email" type="email" name="" value="" placeholder="Email Address"><br>
+        <p class="check"><input type="checkbox" name="" value="">
+          By singning up, I agree to  the HMD Global <u>Privacy Policy</u>
+        </p>
+        <button type="submit" name="button" class="submit-email" onclick="sayhi();"><strong>sign up</strong></button>
+      </div>
+      <div class="col-lg-6 after-sign-up">
+        <p>Thanks for singning up</p>
+        <p class="gladding-user"></p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact-us">
+    <footer class="contact">
+      <div class="fa-contact-us">
+        <i class="fab fa-facebook fa-con"></i>
+        <i class="fab fa-instagram fa-con"></i>
+        <i class="fab fa-twitter fa-con"></i>
+        <i class="fab fa-youtube fa-con"></i>
+        <hr class="hr-two">
+      </div>
+      <div class="cop">
+        MADE  WITH  <i class="fas fa-heart"></i>  BY Me!
+      </div>
+    </footer>
+  </section>
+
+
+
+
+
+
+
+
+
+  <script src="app.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title></title>
+
+  <link rel="icon" href="img/favicon.ico">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="style_fea.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@700&display=swap" rel="stylesheet">
+</head>
+
+
+
+<body>
+
+  <section id="navigation-bar">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg">
+        <!-- BRAND NAME -->
+        <a class="navbar-brand" href="/WEB_DEV/PROJECT/index.html">NOKIA</a>
+        <!-- TOGGLE BUTTON -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"><i class="fas fa-bars"></i></span>
+        </button>
+        <!-- TOGGLE CONTEN -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="navbar-item"><a class="navbar-link" href="#contact-us">contact us</a></li>
+            <button class="btn my-2 my-sm-0 nm" type="button" onclick="nightMode()" name="button"><i class="fas fa-moon fa-lg"></i></button>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section id="features">
+
+
+    <div class="container specs">
+      <div class="row spec-1">
+        <div class="col-lg-6 c-1 c-1-l">
+          <h1><strong>Nokia 110</strong></h1>
+        </div>
+        <div class="col-lg-6 c-1 c-1-r">
+          Talk, play, take photos - what more do you need?
+        </div>
+      </div>
+    </div>
+
+    <div class="container specs-2">
+      <div class="row spec-2">
+        <div class="col-lg-4 c-2 c-2-l">
+          <strong>colors</strong>
+        </div>
+        <div class="col-lg-8 c-2 c-2-r">
+          <img src="img/n_f_b.png" class="img-fe" alt="">
+          <img src="img/n_f_p.png" class="img-fe" alt="">
+          <img src="img/n_f_s.png" class="img-fe" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="container s2 spec-3">
+      <div class="row spec-3">
+        <div class="col-lg-4 c-3 c-3-l">
+          <strong>size & weight</strong>
+        </div>
+        <div class="col-lg-2 c-3 c-3-r">
+          <p class="he-te"><strong>Height:</strong></p><br>
+          <p class="he-val">115.15mm</p>
+          <canvas id="h" width="10px" height="379px"></canvas>
+        </div>
+        <div class="col-lg-3 gra-width">
+          <img src="img/n_f_b.png" class="graphic-photo-1" alt="">
+          <canvas id="w" width="158px" height="5px"></canvas>
+          <p><strong>Width:</strong></p>
+          <p>49.85mm</p>
+        </div>
+        <div class="col-l-3 gra-dep">
+          <img src="img/n_f_b_side.png" class="gra-dep" alt=""><br>
+          <canvas id="d" width="51px" height="5px"></canvas>
+          <p><strong>Depth:</strong></p>
+          <p>14.3mm</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div class="row spec-4">
+        <div class="col-lg-2">
+          <h1><strong>display</strong></h1>
+        </div>
+        <div class="col-lg-10 spec-4-r">
+          <p><strong>display size: </strong>1.77inch</p>
+          <p><strong>display type: </strong>QQVGA</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div class="row spec-5">
+        <div class="col-lg-2">
+          <h1><strong>camera</strong></h1>
+        </div>
+        <div class="col-lg-10 spec-5-r">
+          <p><strong>rear camera:</strong> QQVGA</p>
+          <img src="img/n_f_cam.png" class="n_f_cam" alt="">
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div class="row spec-6">
+        <div class="col-lg-3">
+          <h1><strong>performance</strong></h1>
+        </div>
+        <div class="col-lg-9 spec-6-r">
+          <p><strong>display size: </strong>1.77inch</p>
+          <p><strong>Approximate talk time (Dual SIM, GSM):</strong> 14 h</p>
+          <p><strong>Approximate talk time (Single SIM, GSM):</strong>18.5 days</p>
+          <p><strong>CPU:</strong>SPRD 6531E</p>
+          <p><strong>Operating System:</strong>Nokia Series 30+</p>
+          <p><strong>lay-time:</strong>27 h</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div class="row spec-7">
+        <div class="col-lg-3">
+          <h1><strong>connectivity</strong></h1>
+        </div>
+        <div class="col-lg-9 spec-7-r">
+          <p><strong>Cable type: Micro USB (USB 2.0) </strong></p>
+          <p><strong>SIM type (slot 1): Mini Sim</strong></p>
+          <p><strong>SIM type (slot 2): Mini Sim</strong></p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div class="row spec-8">
+        <div class="col-lg-3">
+          <h1><strong>battery</strong></h1>
+        </div>
+        <div class="col-lg-9 spec-8-r">
+          <p><strong>Battery capacity:</strong>800 mAh</p>
+          <p><strong>Battery type:</strong>Removable</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div class="row spec-9">
+        <div class="col-lg-3">
+          <h1><strong>external storage</strong></h1>
+        </div>
+        <div class="col-lg-9 spec-9-r">
+          <p><strong>MicroSD card support up to:</strong>32 GB</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div class="row spec-10">
+        <div class="col-lg-3">
+          <h1><strong>audio</strong></h1>
+        </div>
+        <div class="col-lg-9 spec-10-r">
+          <p><strong>Headphone jack:</strong>3.5 mm
+            FM Radio (Headset required)</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div class="row spec-11">
+        <div class="col-lg-3">
+          <h1><strong>network and connectivity</strong></h1>
+        </div>
+        <div class="col-lg-9 spec-11-r">
+          <p><strong>Network bands (GSM):</strong>900/1800 (EU)</p>
+        </div>
+      </div>
+    </div>
+
+    <hr>
+
+    <div class="container">
+      <div class="row spec-12">
+        <div class="col-lg-3">
+          <h1><strong>in the box</strong></h1>
+        </div>
+        <div class="col-lg-4 spec-12-r">
+          <p>Micro USB charger Removable battery</p>
+        </div>
+        <div class="col-lg-5 spec-12-r">
+          <p>Quick Start Guide</p>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <section id="contact-us">
+    <footer class="contact">
+      <div class="fa-contact-us">
+        <i class="fab fa-facebook fa-con"></i>
+        <i class="fab fa-instagram fa-con"></i>
+        <i class="fab fa-twitter fa-con"></i>
+        <i class="fab fa-youtube fa-con"></i>
+        <hr class="hr-two">
+      </div>
+      <div class="cop">
+        MADE  WITH  <i class="fas fa-heart"></i>  BY Me!
+      </div>
+    </footer>
+  </section>
+
+
+
+
+
+  <script src="app-fea.js" charset="utf-8"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+
+</body>
+
+</html>
