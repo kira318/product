@@ -105,7 +105,7 @@ var tags = document.querySelectorAll(".fa-con");
 function tag_reveal(){
   var windowheight = window.innerHeight;
   var revealtop = tags[0].getBoundingClientRect().top;
-  if(revealtop < 670){
+  if(revealtop < windowheight){
     tags[0].classList.add('fa-con-active0');
     tags[1].classList.add('fa-con-active1');
     tags[2].classList.add('fa-con-active2');
