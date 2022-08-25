@@ -352,6 +352,11 @@ body {
 /* RESPONSIVE */
 
 @media (max-width: 992px) {
+
+  * {
+    font-size: 1.5rem;
+  }
+
   li {
     padding-left: 40px;
   }
@@ -370,7 +375,6 @@ body {
   .btn.nm {
     margin-left: 30px;
   }
-
   .c-1-r {
     padding: 0px;
     margin-left: 70px;
@@ -380,9 +384,6 @@ body {
   .c-2-r {
     text-align: center;
     margin-top: 30px;
-  }
-  .img-fe {
-    margin-right: 40px;
   }
   .img-fe:hover {
     margin-left: 90px;
