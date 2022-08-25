@@ -436,11 +436,10 @@ video {
   margin-right: 10px;
 }
 .submit-email {
-  width: 120px;
-  height: 50px;
+  border-radius: 20px;
   border: 0px;
   font-size: 1.4rem;
-  padding-bottom: 5px;
+  padding: 20px;
   border-radius: 2px;
 }
 .after-sign-up {
@@ -567,6 +566,10 @@ video {
 
 @media (max-width: 992px) {
 
+  * {
+    font-size: 1.5rem;
+  }
+
   li {
     padding-left: 40px;
   }
@@ -614,11 +617,8 @@ video {
     padding: 0px;
   }
   .fm {
-    margin:0px;
     margin-top: 80px;
-    margin-left: 40px;
     text-align: center;
-    width: 400px;
     margin-bottom: 80px;
   }
 
